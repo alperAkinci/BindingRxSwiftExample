@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0325B609140E80FA51C6A98D /* Pods_BindingRxSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15F7511A413812B85196A78 /* Pods_BindingRxSwiftExample.framework */; };
 		E11936731FB34788000F10F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11936721FB34788000F10F1 /* AppDelegate.swift */; };
 		E11936751FB34788000F10F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11936741FB34788000F10F1 /* ViewController.swift */; };
 		E11936781FB34788000F10F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11936761FB34788000F10F1 /* Main.storyboard */; };
 		E119367A1FB34788000F10F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11936791FB34788000F10F1 /* Assets.xcassets */; };
 		E119367D1FB34788000F10F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E119367B1FB34788000F10F1 /* LaunchScreen.storyboard */; };
+		E1720EA51FB353D300D4E018 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1720EA41FB353D300D4E018 /* CircleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A688D9723BBD161DAB1E09F /* Pods-BindingRxSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BindingRxSwiftExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BindingRxSwiftExample/Pods-BindingRxSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		9A75084C94D6F0F46AD9B6A2 /* Pods-BindingRxSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BindingRxSwiftExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-BindingRxSwiftExample/Pods-BindingRxSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		C15F7511A413812B85196A78 /* Pods_BindingRxSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BindingRxSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E119366F1FB34788000F10F1 /* BindingRxSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindingRxSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11936721FB34788000F10F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E11936741FB34788000F10F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		E11936791FB34788000F10F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E119367C1FB34788000F10F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E119367E1FB34788000F10F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1720EA41FB353D300D4E018 /* CircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0325B609140E80FA51C6A98D /* Pods_BindingRxSwiftExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E36423309BC7E20AF0D377B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15F7511A413812B85196A78 /* Pods_BindingRxSwiftExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		893FC5280A7E509D020664D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A688D9723BBD161DAB1E09F /* Pods-BindingRxSwiftExample.debug.xcconfig */,
+				9A75084C94D6F0F46AD9B6A2 /* Pods-BindingRxSwiftExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E11936661FB34788000F10F1 = {
 			isa = PBXGroup;
 			children = (
 				E11936711FB34788000F10F1 /* BindingRxSwiftExample */,
 				E11936701FB34788000F10F1 /* Products */,
+				893FC5280A7E509D020664D8 /* Pods */,
+				7E36423309BC7E20AF0D377B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				E11936721FB34788000F10F1 /* AppDelegate.swift */,
+				E1720EA41FB353D300D4E018 /* CircleViewModel.swift */,
 				E11936741FB34788000F10F1 /* ViewController.swift */,
 				E11936761FB34788000F10F1 /* Main.storyboard */,
 				E11936791FB34788000F10F1 /* Assets.xcassets */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11936811FB34788000F10F1 /* Build configuration list for PBXNativeTarget "BindingRxSwiftExample" */;
 			buildPhases = (
+				FC71D1EDEF5A9182E1C15428 /* [CP] Check Pods Manifest.lock */,
 				E119366B1FB34788000F10F1 /* Sources */,
 				E119366C1FB34788000F10F1 /* Frameworks */,
 				E119366D1FB34788000F10F1 /* Resources */,
+				593968CDF1D2F1BF35680097 /* [CP] Embed Pods Frameworks */,
+				A234B7F61A2A007FA7FCC420 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +161,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		593968CDF1D2F1BF35680097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BindingRxSwiftExample/Pods-BindingRxSwiftExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BindingRxSwiftExample/Pods-BindingRxSwiftExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A234B7F61A2A007FA7FCC420 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BindingRxSwiftExample/Pods-BindingRxSwiftExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC71D1EDEF5A9182E1C15428 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BindingRxSwiftExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E119366B1FB34788000F10F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1720EA51FB353D300D4E018 /* CircleViewModel.swift in Sources */,
 				E11936751FB34788000F10F1 /* ViewController.swift in Sources */,
 				E11936731FB34788000F10F1 /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +361,7 @@
 		};
 		E11936821FB34788000F10F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A688D9723BBD161DAB1E09F /* Pods-BindingRxSwiftExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		E11936831FB34788000F10F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A75084C94D6F0F46AD9B6A2 /* Pods-BindingRxSwiftExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
